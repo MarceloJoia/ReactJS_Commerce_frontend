@@ -1,6 +1,6 @@
 import './style.css';
 
-export default function ButtonInverse() {
+export default function ButtonPrimary() {
     return (
         <div className="dsc-btn dsc-btn-blue">
             Início
