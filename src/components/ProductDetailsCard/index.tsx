@@ -21,8 +21,12 @@ export default function ProductDetailsCard({ product }: Props) {
                 <p>{product.description}</p>
 
                 <div className="dsc-category-container">
-                    <ProductCategory name="Eletrônicos" />
-                    <ProductCategory name="Computadors" />
+                    {
+                        // Ao reenderizar uma coleção é OBRIGATÓRIO colocar o KEY [ key={item.id} ]
+                        product.categories.map(item => (
+                            <ProductCategory key={item.id} name={item.name} />
+                        ))
+                    }
                 </div>
             </div>
         </div>

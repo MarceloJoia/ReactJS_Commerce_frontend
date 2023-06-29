@@ -7,7 +7,7 @@ import ButtonInverse from '../../components/ButtonInverse';
 
 import { ProductDTO } from '../../models/product';
 
-//=> Criar uma constante
+//=> Criar uma constante e base MOCK
 const product: ProductDTO = {
   id: 2,
   name: 'Smart TV',
@@ -17,11 +17,15 @@ const product: ProductDTO = {
   categories: [
     {
       id: 2,
-      nome: "Eletrônicos",
+      name: "Eletrônicos",
     },
     {
       id: 3,
-      nome: "Computadores",
+      name: "Computadores",
+    },
+    {
+      id: 4,
+      name: "Importados",
     },
   ]
 };
