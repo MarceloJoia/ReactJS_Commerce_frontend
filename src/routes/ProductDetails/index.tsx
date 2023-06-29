@@ -8,6 +8,7 @@ import ButtonInverse from '../../components/ButtonInverse';
 import { ProductDTO } from '../../models/product';
 
 //=> Criar uma constante e base MOCK
+//=> Objeto Auxiliar Produto
 const product: ProductDTO = {
   id: 2,
   name: 'Smart TV',
