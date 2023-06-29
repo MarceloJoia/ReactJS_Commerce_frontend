@@ -37,10 +37,12 @@ export default function ProductDetails() {
       <HeaderClient />
       <main>
         <section id="product-details-section" className="dsc-container">
+
           <ProductDetailsCard product={product} />
+
           <div className="dsc-btn-page-container">
-            <ButtonPrimary />
-            <ButtonInverse />
+            <ButtonPrimary text="Comprar" />
+            <ButtonInverse text="Inicio" />
           </div>
         </section>
       </main>

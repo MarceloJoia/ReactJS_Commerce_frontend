@@ -30,7 +30,7 @@ export default function Catalog() {
 
                     </div>
 
-                    <ButtonNexPage />
+                    <ButtonNexPage name="Carregar mais"/>
 
                 </section>
             </main>
